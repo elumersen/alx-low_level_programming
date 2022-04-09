@@ -4,7 +4,7 @@
 
 /**
  * main - entry point
- * 
+ *
  * Description: Prints a number and it's last digit along with whether its
  *
  * Return: Always 0
