@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - entry point
  * 
  * Description: Prints a number and it's last digit along with whether its
@@ -13,7 +12,7 @@
  *  Return: 0
  */
 
-int main(void)
+int main (void)
 
 {
 	int n;
