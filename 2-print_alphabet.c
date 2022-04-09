@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Return: Success 0
+ * Return: 0
  */
 
 int main(void)
@@ -24,8 +24,9 @@ int main(void)
 
 
 
+
+
 	return (0);
 
 
 }
-
