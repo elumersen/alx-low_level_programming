@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: 0
+ * description: thus is 
+ *
+ * return: 0 success
  */
 
 int main(void)
@@ -24,9 +26,6 @@ int main(void)
 
 
 
-
-
 	return (0);
-
 
 }
