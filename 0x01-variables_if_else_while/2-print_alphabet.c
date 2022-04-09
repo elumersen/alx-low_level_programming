@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * description: thus is 
- *
- * return: 0 success
+ * main - Entry Point
+ * Description: This program will add two numbers
+ * Return: 0
  */
 
 int main(void)
