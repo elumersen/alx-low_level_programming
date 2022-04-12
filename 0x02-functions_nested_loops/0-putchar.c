@@ -1,11 +1,11 @@
 #include <main.h>
+
 /**
- * main- Etry point
+ * main - prints _putchar followed by a new line 
  *
  * Return: nothing, return void
  */
 int main(void)
-
 {
 
 	_putchar('_');
@@ -25,8 +25,6 @@ int main(void)
 	_putchar('r');
 
 	_putchar('\n');
-
-
 
 	return (0);
 
