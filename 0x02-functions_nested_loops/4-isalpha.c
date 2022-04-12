@@ -3,11 +3,12 @@
 /**
  * _isalpha - Return 1 if c is a letter. lowercase or uppercase
  *
- * @c: The int to print
+ * @c: character to be checked.
  *
- * Rturn: Always 0.
+ * Return: 1 if the character is an English character.
+ *
+ * 0 if the character is not an English character.
  */
-
 int _isalpha(int c)
 {
 	if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
@@ -18,10 +19,8 @@ int _isalpha(int c)
 
 	else
 
- 	{
-	
+ 	{	
 		return (0);
-
 	}
 
 }
