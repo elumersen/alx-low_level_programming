@@ -2,6 +2,10 @@
 /**
  * main - check the code.
  *
+ * @n: the number to be checked.
+ *
+ * print_sign - return 0 letter not lowercase, 1 letter lowercase
+ *
  * Return: Always 0.
  */
 int print_sign(int n)
