@@ -6,52 +6,44 @@
  *
  * Return: Always 0.
  */
-void times_table(void)
+
+int print_sign(int n)
 {
-	int a;
-	int b;
-	int c;
 
-	for (a = 0; a <= 9; a++)
+	if (n > 0)
+
 	{
-		for (b = 0; b <= 9; b++)
-		{
-			c = a * b;
 
-			if ((c / 10) == 0)
-			{
-				if (b == 0)
-				{
-					_putchar ('0');
-				}
-				if (b != 0)
-				{
-					_putchar (' ');
-					_putchar ((c % 10) + '0');
+		_putchar ('+');
 
-				}
-				if (b < 9)
-				{
-					_putchar(',');
-					_putchar (' ');					
-				}
-			}
-			else
-			{
-				_putchar ((c / 10) + '0');
-				_putchar ((c % 10) + '0');
-				if (b < 9)
-				{
-					_putchar(',');
-					_putchar (' ');					
-				}
-
-			}
-
-		}
-
-		_putchar ('\n');
+		return (1);
 
 	}
+
+
+
+	else if (n == 0)
+
+	{
+
+		_putchar ('0');
+
+		return (0);
+
+	}
+
+
+
+	else
+
+	{
+
+		_putchar ('-');
+
+		return (-1);
+
+	}
+
+
 
 }
