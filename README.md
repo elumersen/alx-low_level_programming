@@ -1,1 +1,1 @@
-This is the repo that holds all the basic introduction about C programming.
+this is all about c , programming in C
