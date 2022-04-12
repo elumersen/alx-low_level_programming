@@ -1,13 +1,10 @@
 #include "main.h"
 
 /**
- *main - entry point
- * 
+ *main - check the code 
  *Return: Always 0.
  */
-
 void print_alphabet(void)
-
 {
 
 	char alphabet;
