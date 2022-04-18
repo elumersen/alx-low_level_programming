@@ -1,1 +1,1 @@
-dive deep with C wave
+this is all about C and programming with C
